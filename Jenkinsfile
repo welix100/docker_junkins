@@ -2,7 +2,7 @@ pipeline {
   agent {
         docker {
             image 'alpine:latest'
-          label '${label}'
+          label '$label'
         }
     }
 
